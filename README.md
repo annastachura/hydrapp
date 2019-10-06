@@ -1,4 +1,7 @@
-# wtf-gulp-starter
+# hydrapp
+![logo hydrapp](src/assets/img/HYDRAPP.png/)
+
+## Zapraszam do pobrania mojej aplikacji, która przypomina o codziennym piciu wody:
 
 `npm install -g gulp-cli`
 
