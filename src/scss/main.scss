@@ -11,6 +11,71 @@ html {
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+color: white; 
+background: #3767AD;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 32px;
+}
+
+
+.hydrapp__buttons {
+  display: flex;
+  flex-direction: column;
+  margin:bottom;
+}
+
+.hydrapp__button1 {
+font-size: 18px;
+color: black;
+padding: 12px;
+border: none;
+border-radius:4px;
+background: white;
+min-width: 216px;
+min-height: 46px;
+margin-top:43px;
+}
+
+.hydrapp__button2 {
+  min-width: 184px;
+  min-height: 23px;
+  padding: 12px;
+  color: white;
+  background: transparent;
+  border: none;
+  margin-top: 42px;
+  font-size: 14px;
+}
+
+
+.hydrapp__number {
+  font-size: 120px;
+  text-align: center;
+  color: black;
+}
+
+.hydrapp__water-glass {
+background: url('../assets/img/water-glass.svg') center center;
+height: 280px;
+width: 280px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.history {
+  color: black;
+  margin-top: 40px;
+  font-size: 30px;
+
 }
