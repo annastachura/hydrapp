@@ -364,7 +364,12 @@ main {
   background: white;
   min-width: 216px;
   min-height: 46px;
-  margin-top: 43px; }
+  margin-top: 43px;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear; }
+  .hydrapp__button1:hover {
+    background: blue; }
 
 .hydrapp__button2 {
   min-width: 184px;
@@ -374,7 +379,12 @@ main {
   background: transparent;
   border: none;
   margin-top: 42px;
-  font-size: 14px; }
+  font-size: 14px;
+  -webkit-transition: color .3s linear;
+  -o-transition: color .3s linear;
+  transition: color .3s linear; }
+  .hydrapp__button2:hover {
+    color: blue; }
 
 .hydrapp__number {
   font-size: 120px;
